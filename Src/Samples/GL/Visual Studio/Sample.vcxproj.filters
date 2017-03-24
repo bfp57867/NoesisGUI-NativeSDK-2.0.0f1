@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\Common\Renderers\GL\GLRenderDevice.cpp">
+      <Filter>RenderDevice</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\Common\Renderers\GL\GLRenderDevice.h">
+      <Filter>RenderDevice</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RenderDevice">
+      <UniqueIdentifier>{00cd380f-740d-47bd-92aa-b0d99a3d64aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
